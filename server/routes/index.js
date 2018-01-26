@@ -24,7 +24,7 @@ var reports = require('./reports.js');
 router.post('/login', auth.login);
 
 router.post('/notes/usertodolist', notes.usertodolist);
-router.post('/reports', reports.usertodolist);
+//router.post('/reports', reports.usertodolist);
 
 
 module.exports = router;
